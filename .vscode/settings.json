@@ -1,0 +1,38 @@
+{
+    "workbench.colorCustomizations": {
+        "[Monokai]": {
+            "sideBar.background": "#151515",
+            "sideBarSectionHeader.background": "#151515",
+            "editorGroupHeader.tabsBackground": "#151515",
+            "editorGroupHeader.noTabsBackground": "#151515",
+            "editorPane.background": "#151515",
+            "tab.inactiveBackground": "#151515",
+            "tab.border": "#151515",
+            "editor.background": "#191919",
+            "editorWidget.background": "#151515",
+            "editorSuggestWidget.background": "#151515",
+            "editorHoverWidget.background": "#151515",
+            "editorHoverWidget.border": "#444",
+            "debugExceptionWidget.background": "#151515",
+            "peekViewEditor.background": "#191919",
+            "peekViewResult.background": "#151515",
+            "peekViewTitle.background": "#191919",
+            "panel.background": "#171717",
+            "panel.border": "#171717",
+            "statusBar.background": "#151515",
+            "statusBar.foreground": "#bbb",
+            "titleBar.activeBackground": "#151515",
+            "titleBar.activeForeground": "#bbb",
+            "menu.background": "#191919",
+            "menu.selectionBackground": "#444",
+            "menu.border": "#444",
+            "notifications.background": "#151515",
+            "activityBar.background": "#151515"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Monokai]": {
+            "string": "#229977"
+        }
+    },
+}

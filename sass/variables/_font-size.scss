@@ -1,0 +1,9 @@
+// Responsive font sizes
+$display-1: clamp(2.2rem, 4.1vw, 4rem);
+$display-2: clamp(2rem, 3.2vw, 3.2rem);
+$display-3: clamp(1.6rem, 2.8vw, 2.8rem);
+$display-4: clamp(1.5rem, 2.6vw, 2.5rem);
+$display-5: clamp(1.3rem, 2.3vw, 2.2rem);
+$display-6: clamp(1.15rem, 2vw, 1.8rem);
+
+$text-default: clamp(0.9rem, 1.4vw, 1.35rem);

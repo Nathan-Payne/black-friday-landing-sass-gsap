@@ -1,0 +1,30 @@
+// Base styles to cascade
+
+@import "./reset";
+
+h1 {
+  font-size: $display-1;
+}
+h2 {
+  font-size: $display-2;
+}
+h3 {
+  font-size: $display-3;
+}
+h4 {
+  font-size: $display-4;
+}
+h5 {
+  font-size: $display-5;
+}
+h6 {
+  font-size: $display-6;
+}
+
+p,
+ul,
+li,
+label,
+a {
+  font-size: $text-default;
+}
