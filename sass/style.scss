@@ -1,9 +1,7 @@
 // Global Stylesheet
 @import "./variables/variables";
 @import "./mixins/mixins";
-@import "./fonts/fonts";
-@import "./base/base";
-@import "./themes/themes";
-@import "./pages/pages";
-@import "./components/components";
-@import "./utils/utils";
+@import "./base/base"; // css reset + font set up
+@import "./themes/themes"; // base styles for elements (e.g. h1-h6)
+@import "./sections/sections"; // specific styles for unique page sections
+@import "./utils/utils"; // useful css utility classes

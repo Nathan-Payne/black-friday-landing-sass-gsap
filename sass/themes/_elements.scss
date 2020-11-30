@@ -1,0 +1,47 @@
+html {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background-color: $snow;
+  color: $eerie-black;
+}
+
+section {
+  width: 90vw;
+  min-height: 50vh;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: $display-1;
+  font-weight: 900;
+}
+h2 {
+  font-size: $display-2;
+  font-weight: 800;
+}
+h3 {
+  font-size: $display-3;
+  font-weight: 750;
+}
+h4 {
+  font-size: $display-4;
+  font-weight: 650;
+}
+h5 {
+  font-size: $display-5;
+  font-weight: 550;
+}
+h6 {
+  font-size: $display-6;
+  font-weight: 450;
+}
+
+p,
+ul,
+li,
+label,
+a {
+  font-size: $text-default;
+}
