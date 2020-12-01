@@ -566,6 +566,7 @@ a {
 .landing-grid__titles {
   color: #7c94a2;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .landing-grid__card {
@@ -589,7 +590,7 @@ a {
   text-transform: uppercase;
   width: 200%;
   padding-top: 3rem;
-  transform: translate(-10%) scaleX(120%);
+  transform: translateX(-10%) scaleX(1.2);
 }
 
 .landing-grid__card-footer {

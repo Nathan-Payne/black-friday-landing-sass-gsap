@@ -8,6 +8,7 @@
   &__titles {
     color: $slate-grey;
     text-transform: uppercase;
+    text-align: center;
   }
 
   &__card {
@@ -35,7 +36,7 @@
       text-transform: uppercase;
       width: 200%;
       padding-top: 3rem;
-      transform: translate(-10%) scaleX(120%);
+      transform: translateX(-10%) scaleX(1.2);
     }
 
     &-footer {
