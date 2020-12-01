@@ -1,1 +1,29 @@
 // reusable code snippets - buttons, inputs, cards
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 750;
+  font-size: $display-6;
+  background-color: $hot-pink;
+  color: $snow;
+  border-radius: 24px;
+  padding: 0.4rem 1.8rem;
+  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-out;
+
+  &:hover {
+    background-color: $turquoise-blue;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.6);
+    padding: 0.4rem 2.2rem;
+    transition: all 0.2s ease-out;
+  }
+
+  &--large {
+    padding: 0.4rem 5.5rem;
+
+    &:hover {
+      padding: 0.4rem 6rem;
+    }
+  }
+}

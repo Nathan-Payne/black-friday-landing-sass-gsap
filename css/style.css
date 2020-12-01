@@ -555,6 +555,34 @@ a {
   font-size: clamp(0.9rem, 1.4vw, 1.35rem);
 }
 
+.btn {
+  text-transform: uppercase;
+  font-weight: 750;
+  font-size: clamp(1.15rem, 2vw, 1.8rem);
+  background-color: #de369d;
+  color: #fffafb;
+  border-radius: 24px;
+  padding: 0.4rem 1.8rem;
+  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-out;
+}
+
+.btn:hover {
+  background-color: #33ffeb;
+  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.6);
+  padding: 0.4rem 2.2rem;
+  transition: all 0.2s ease-out;
+}
+
+.btn--large {
+  padding: 0.4rem 5.5rem;
+}
+
+.btn--large:hover {
+  padding: 0.4rem 6rem;
+}
+
 .landing-grid {
   min-height: 100vh;
   display: grid;
@@ -567,6 +595,7 @@ a {
   color: #7c94a2;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 100;
 }
 
 .landing-grid__card {
@@ -595,6 +624,7 @@ a {
 
 .landing-grid__card-footer {
   height: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -606,28 +636,6 @@ a {
   font-weight: 370;
   text-transform: uppercase;
   padding-bottom: 2rem;
-}
-
-.landing-grid__card-link {
-  text-transform: uppercase;
-  font-weight: 750;
-  font-size: clamp(1.15rem, 2vw, 1.8rem);
-  border: 3px solid #de369d;
-  background-color: #de369d;
-  color: #fffafb;
-  border-radius: 24px;
-  padding: 0.3rem 1.5rem;
-  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease-out;
-}
-
-.landing-grid__card-link:hover {
-  background-color: #33ffeb;
-  border-color: #33ffeb;
-  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.6);
-  padding: 0.3rem 1.9rem;
-  transition: all 0.2s ease-out;
 }
 
 .text-shadow-fancy {

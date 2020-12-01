@@ -9,6 +9,7 @@
     color: $slate-grey;
     text-transform: uppercase;
     text-align: center;
+    font-weight: 100;
   }
 
   &__card {
@@ -20,7 +21,7 @@
     position: relative;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
     background-blend-mode: overlay;
-    background-image: url("https://images.unsplash.com/photo-1429087969512-1e85aab2683d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80"),
+    background-image: url('https://images.unsplash.com/photo-1429087969512-1e85aab2683d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80'),
       linear-gradient(
         170deg,
         rgba(222, 54, 157, 0.7) 21%,
@@ -41,6 +42,7 @@
 
     &-footer {
       height: 100%;
+      position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -52,28 +54,6 @@
       font-weight: 370;
       text-transform: uppercase;
       padding-bottom: 2rem;
-    }
-
-    &-link {
-      text-transform: uppercase;
-      font-weight: 750;
-      font-size: $display-6;
-      border: 3px solid $hot-pink;
-      background-color: $hot-pink;
-      color: $snow;
-      border-radius: 24px;
-      padding: 0.3rem 1.5rem;
-      text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
-      transition: all 0.2s ease-out;
-
-      &:hover {
-        background-color: $turquoise-blue;
-        border-color: $turquoise-blue;
-        text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.6);
-        padding: 0.3rem 1.9rem;
-        transition: all 0.2s ease-out;
-      }
     }
   }
 }
