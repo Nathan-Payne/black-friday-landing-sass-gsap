@@ -503,7 +503,8 @@ video {
 }
 
 html {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  overflow: hidden;
 }
 
 body {
@@ -583,6 +584,31 @@ a {
   padding: 0.4rem 6rem;
 }
 
+.color-block {
+  position: absolute;
+  top: -20%;
+  left: 90%;
+  height: 100%;
+  width: 70%;
+  z-index: -10;
+  background-color: #33ffeb;
+  box-shadow: 0 6px 12px rgba(51, 255, 235, 0.3), 0 3px 6px rgba(51, 255, 235, 0.3), 0 -6px 12px rgba(51, 255, 235, 0.2), 0 -3px 6px rgba(51, 255, 235, 0.3);
+}
+
+.color-block--pink {
+  background-color: #de369d;
+  box-shadow: 0 6px 12px rgba(222, 54, 157, 0.3), 0 3px 6px rgba(222, 54, 157, 0.3), 0 -6px 12px rgba(222, 54, 157, 0.2), 0 -3px 6px rgba(222, 54, 157, 0.3);
+}
+
+.color-block--circle {
+  height: 80rem;
+  width: 40rem;
+  position: absolute;
+  top: -15rem;
+  left: -37rem;
+  border-radius: 50%;
+}
+
 .landing-grid {
   min-height: 100vh;
   display: grid;
@@ -614,12 +640,12 @@ a {
 }
 
 .landing-grid__card-title {
-  font-weight: 300;
+  font-weight: 250;
   text-align: left;
   text-transform: uppercase;
   width: 200%;
   padding-top: 3rem;
-  transform: translateX(-10%) scaleX(1.2);
+  transform: translateX(-10%) scaleX(1.1);
 }
 
 .landing-grid__card-footer {

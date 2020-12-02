@@ -3,11 +3,21 @@
 function runIntroAnimation() {
   gsap
     .timeline({ defaults: { ease: 'power2.out' } })
+    // set initial shape start, animate variable font weight
+    .set('.gsap-landing-rect', {
+      rotate: -48,
+      xPercent: 28,
+      autoAlpha: 0,
+    })
+    .set('.gsap-landing-circle', {
+      xPercent: -10,
+    })
     .from(
       '.landing-grid__titles',
       {
         autoAlpha: 0,
         scaleX: 1.4,
+        color: '#de369d',
         duration: 0.3,
         stagger: 0.12,
       },
@@ -16,20 +26,23 @@ function runIntroAnimation() {
     .to(
       '.landing-grid__titles',
       {
-        fontWeight: 900,
+        fontWeight: 700,
+        color: '#33ffeb',
         duration: 2,
         stagger: 0.08,
         ease: 'linear',
       },
-      '+=0.5'
+      '<+=0.5'
     )
     .to('.landing-grid__titles', {
       fontWeight: 100,
+      color: '#de369d',
       duration: 2,
       stagger: 0.08,
       ease: 'linear',
     })
 
+  // card + shapes timeline
   gsap
     .timeline({ defaults: { ease: 'power2.out' } })
     .from(
@@ -46,7 +59,7 @@ function runIntroAnimation() {
       {
         autoAlpha: 0,
         y: -20,
-        duration: 0.3,
+        duration: 0.6,
       },
       '-=0.2'
     )
@@ -54,10 +67,23 @@ function runIntroAnimation() {
       '.landing-grid__card-footer',
       {
         autoAlpha: 0,
-        y: -20,
-        duration: 0.3,
+        y: -10,
+        duration: 0.6,
       },
-      '-=0.17'
+      '-=0.16'
+    )
+    .to('.gsap-landing-rect', {
+      xPercent: 11,
+      autoAlpha: 1,
+      duration: 4,
+    })
+    .to(
+      '.gsap-landing-circle',
+      {
+        xPercent: 0,
+        duration: 4,
+      },
+      '-=2'
     )
 }
 
@@ -68,6 +94,23 @@ function runExitAnimation() {
       autoAlpha: 0,
       duration: 0.25,
     })
+    .to(
+      '.gsap-landing-rect',
+      {
+        autoAlpha: 0,
+        xPercent: 20,
+        duration: 0.25,
+      },
+      '<'
+    )
+    .to(
+      '.gsap-landing-circle',
+      {
+        xPercent: -20,
+        duration: 0.25,
+      },
+      '<'
+    )
     .to(
       '.landing-grid__card-footer',
       {
