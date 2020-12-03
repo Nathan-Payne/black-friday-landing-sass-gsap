@@ -41,6 +41,10 @@ function runIntroAnimation() {
       stagger: 0.08,
       ease: 'linear',
     })
+    .to('.landing-grid__titles', {
+      opacity: 0.4,
+      duration: 3,
+    })
 
   // card + shapes timeline
   gsap
@@ -83,7 +87,7 @@ function runIntroAnimation() {
         xPercent: 0,
         duration: 4,
       },
-      '-=2'
+      '-=2.5'
     )
 }
 

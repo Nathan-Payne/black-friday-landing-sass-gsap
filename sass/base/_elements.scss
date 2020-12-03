@@ -4,8 +4,14 @@ html {
 }
 
 body {
+  overflow: hidden;
+  position: relative;
   background-color: $snow;
   color: $eerie-black;
+}
+
+main {
+  width: 100vw;
 }
 
 section {
