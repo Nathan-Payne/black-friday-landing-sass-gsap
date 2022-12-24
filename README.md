@@ -1,10 +1,10 @@
-# Landing Page Design
+# Landing Page Design (UNSUPPORTED)
 
 A landing page website built using SASS, variable fonts and the greensock animation platform (GSAP). HTML classes are applied using a loose BEM structure, SASS files are structured as they might be for a larger project.
 
-## Demo
+## Info
 
-A working demo will be hosted once the project is complete.
+This repo is no longer being developed
 
 ## Usage
 
